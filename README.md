@@ -25,7 +25,7 @@ Resumen:
 
 En este trabajo aprovechamos la experiencia adquirida en la aportación anterior, relativa al tratamiento de la 2-dominación en grafos cilíndricos con caminos pequeños, para abordar un caso más general. Concretamente calculamos este parámetro de distribución óptima de recursos en redes, para grafos cilíndricos con caminos con al menos 8 vértices y ciclos de longitud múltiplo de 3, a través de la obtención de cotas inferiores y superiores coincidentes en dichos casos. Para las cotas inferiores, nuestro enfoque requiere desarrollar algoritmos y programas específicos para el cálculo de la 2-dominación perdida en los bordes del grafo cilíndrico. Dicho enfoque, que consiste en dividir en grafo en secciones pequeñas y de estructura regular, permite que nuestro algoritmo pueda ejecutarse en un procesador Intel(R) Xeon(R) CPU E5-2650, 2.00GHz, con 64 GB de memoria, en un tiempo muy pequeño para el caso que hemos necesitado en la demostración de nuestros resultados. Por otra parte, para el cálculo de las cotas superiores es necesario construir de forma efectiva los conjuntos 2-dominantes en los casos en los queremos calculamos el parámetro de forma exacta. Dichas construcciones están basadas en patrones de repetición regulares, que pueden extenderse a todos los tamaños seleccionados.
 
-## On the 2-domination Number of Cylinders with Small Cycles (sustitutoria)
+## On the 2-domination Number of Cylinders with Small Cycles
 
 Resumen:
 
